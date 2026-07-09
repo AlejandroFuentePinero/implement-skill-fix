@@ -13,11 +13,11 @@ Read the issue or ticket the user names. If they named none, ask which one befor
 
 **Done when:** you can state in one line the behaviour this work delivers and where it lives.
 
-## 2. Agree the seams
+## 2. Pin the seams
 
-Name the seams you will test at, highest seam first, and confirm them with the user before writing code. These seams are the contract the next step builds against.
+Name the seams you will test at, highest seam first, and write them down as a fixed list before the first line of code. This list is the contract step 3 builds against, so it lives in writing, not in your head. If a spec already fixed the seams in its Testing Decisions, adopt those; otherwise derive them from the target.
 
-**Done when:** the user has agreed a written list of seams. If a spec already fixed them in its Testing Decisions, restate them and confirm rather than re-deriving.
+**Done when:** a written list of seams exists, and every seam on it is one you will build through `/tdd` in step 3.
 
 ## 3. Build through `/tdd`
 
